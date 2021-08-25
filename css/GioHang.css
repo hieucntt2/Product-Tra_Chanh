@@ -1,0 +1,191 @@
+.giohang {
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.title p {
+    padding: 10px 0;
+    font-size: 17px;
+    color: #666;
+}
+
+.title .comeback {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4d8a54;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    width: 240px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: 0.4s;
+}
+
+.comeback:hover {
+    background-color: #3b6b41;
+}
+
+/* ------------------------------------------------- */
+
+table {
+    width: 100%;
+    
+}
+
+tr {
+    border-bottom: 1px solid rgb(241, 239, 239);
+    margin: 10px;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 2px solid rgb(224, 223, 223);
+
+}
+
+td {
+    padding: 10px;
+}
+
+svg.bi {
+    color: #ddd;
+    transition: 0.4s;
+}
+
+svg:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+#name {
+    color: #888;
+}
+
+small {
+    color: #e9ba54;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+sup {
+    color: #e4b95b;
+    font-weight: 700;
+}
+
+.quantity {
+    margin-left: 50%;
+    transform: translateX(-60%);
+}
+
+#myProduct_item  tr td img {
+    width: 100px;
+}
+
+#button {
+    margin: 20px 0;
+    display: flex;
+}
+
+#button a {
+    text-decoration: none;
+    border: 2px solid #4d8a54;
+    display: flex;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    color: #4d8a54;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+    transition: 0.4s;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+}
+
+#button a svg {
+    color: #4d8a54;
+    margin-right: 5px;
+}
+
+#button a:hover {
+    background-color: #4d8a54;
+    color: #fff;
+}
+
+#button a:hover svg {
+    color: #fff;
+}
+
+#button button {
+    background-color: #4d8a54;
+    color: #fff;
+    opacity: 0.6;
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+#button button.active {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.Payment {
+    border-left: 1px solid #ddd;
+    padding: 0 40px;
+}
+
+.Payment h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+    letter-spacing: 1px;
+}
+
+.Payment p {
+    color: #000;
+}
+
+.Payment #tinhtien {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.Payment a {
+    display: block;
+    text-decoration: none;
+    margin-top: 50px;
+    width: 100%;
+    padding: 7px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    text-align: center;
+}
+.Payment a:hover{
+    background-color: #c2691c;
+    cursor: pointer;
+    color: #fff;
+}
+

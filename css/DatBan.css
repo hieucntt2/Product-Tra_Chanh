@@ -1,0 +1,160 @@
+.body{
+    width: 100%;
+    padding: 40px 0;
+}
+.body h2{
+    color: #4d8a54;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    transform: scaleY(1.1);
+    text-align: center; margin-bottom: 30px;
+}
+.left_info{
+    background-image: url(../img/bgBook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left_info .content{
+    margin: 20px 5px;
+    border: 1px solid#fff;
+    text-align: center;
+    position: relative;
+}
+.content::before{
+    position: absolute;
+    content: '';
+    top: -5px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.content h3{
+    color: #fff;
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content b{
+    color: #fff;
+    display: block;
+    padding: 20px 0 5px 0;
+}
+.content p,
+.content span{
+    color: #fff;
+    font-size: 16px;
+    padding:0 0 5px 0;
+}
+.content .underlined{
+    width: 90%;
+    border: 1px dashed #fff;
+    margin: auto;
+    margin-top: 20px;
+}
+.content a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 0 30px;
+    display: block;
+    color: #666;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.content a:hover{
+    color: #000;
+}
+.booking{
+    background-image: url(../img/bgBook2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.booking{
+    text-align: center;
+    padding: 20px 0 ;
+}
+.booking h3{
+    color: #fff;
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.booking .input{
+    margin-top: 20px;
+}
+.input .left,
+.input .right{
+    display: flex;
+    flex-direction: column;
+}
+.left input,
+.right input,
+.right select{
+    margin: 10px 0;
+    padding: 5px 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    color: #777;
+}
+.input button{
+    padding: 7px 20px;
+    background-color: #60aa69;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    margin-top: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+    border-color: #60aa69;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.input button:hover{
+    color: #fff;
+    background-color: #4d8a54;
+}
+
+
+.form-message {
+    display: flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.form-message.success input,
+.form-message.success select{
+    border: 2px solid #2ecc71;
+
+}
+.form-message.error input,
+.form-message.error select{
+    border: 2px solid red;
+}
+
+.form-message svg{
+    position: absolute;
+    top: 20px;
+    right: 12%;
+    visibility: hidden;
+}
+.form-message.success svg.bi-check-circle-fill{
+    color: #2ecc71;
+    visibility: visible;
+}
+.form-message.error svg.bi-exclamation-circle-fill{
+    color: red;
+   visibility: visible;
+}
+.form-message small{
+  visibility: hidden;
+}
+.form-message.error small{
+    color: red;
+    visibility: visible;
+}

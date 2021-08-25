@@ -1,0 +1,171 @@
+.main {
+    padding: 50px 0;
+}
+
+.main .content {
+    width: 100%;
+    text-align: center;
+}
+
+.main .content h2 {
+    color: #4d8a54;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: scaleY(1.1);
+}
+
+.information {
+    width: 100%;
+    margin-left: 20px;
+}
+.user_Info{
+    padding-right: 40px;
+}
+.user_Info h4 {
+    color: #555555;
+    font-size: 17.6px;
+    font-weight: 700;
+    line-height: 28.16px;
+    padding: 20px 0px 0px;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    margin-top: 20px;
+}
+
+.userName,
+.phoneNumber,
+.mail,
+.diachi,
+.mess {
+    display: flex;
+    flex-direction: column;
+}
+
+.userName label,
+.phoneNumber label,
+.mail label,
+.diachi label,
+.mess label {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.04px;
+    margin: 0px 0px 5.76px;
+}
+
+.userName label sup,
+.phoneNumber label sup,
+.mail label sup,
+.diachi label sup {
+    color: red;
+}
+
+.userName input,
+.phoneNumber input,
+.mail input,
+.diachi input {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: #dfdcdc 0px 1px 2px 0px;
+    color: #333333;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 24.832px;
+    margin: 0px 0px 15.52px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.mess textarea {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.paymentTable{
+    border: 2px solid #4d8a54;
+    padding: 30px;
+    margin-top: 20px; 
+
+}
+.paymentTable h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 10px;
+}
+.paymentTable_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dddddd;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #444;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 3px 0;
+}
+.paymentTable_product #PTP,
+.paymentTable_sum{
+    padding: 15px 0;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paymentTable_product #PTP p{
+    font-size: 14px;
+    color: #666;
+}
+.paymentTable_product #PTP>p>span{
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: bold; 
+}
+.paymentTable_product #PTP>p>small,
+.paymentTable_sum >p>small {
+    color: #e9ba54;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.paymentTable_product #PTP>p> sup,
+.paymentTable_sum>p> sup {
+    color: #e4b95b;
+    font-weight: 700;
+}
+.paymentTable_sum p{
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+.check{
+
+    margin: 10px 0;
+}
+.check label{
+    margin-left: 10px;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.paymentTable > button{
+    margin-top: 30px;
+    background-color: #e67e22;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.paymentTable > button:hover{
+    cursor: pointer;
+    background-color: #b9641a;
+}
